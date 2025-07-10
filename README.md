@@ -2,7 +2,7 @@ WELCOME to CassandraUnit
 ========================
 
 Everything is in the wiki : 
-https://github.com/jsevellec/cassandra-unit/wiki
+https://github.com/nMoncho/cassandra-unit/wiki
 
 What is it?
 -----------
@@ -21,10 +21,10 @@ Main features :
 Where to start :
 ----------------
 You can start by reading the wiki : 
-https://github.com/jsevellec/cassandra-unit/wiki
+https://github.com/nMoncho/cassandra-unit/wiki
 
 and you can watch cassandra-unit-examples project.
-https://github.com/jsevellec/cassandra-unit-examples
+https://github.com/nMoncho/cassandra-unit-examples
 
 Mailing List :
 --------------
