@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.cassandraunit</groupId>
+        <groupId>net.nmoncho</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
         <version>4.3.1.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.cassandraunit</groupId>
+    <groupId>net.nmoncho</groupId>
     <artifactId>cassandra-unit</artifactId>
     <packaging>jar</packaging>
     <name>cassandra-unit</name>
@@ -106,7 +106,7 @@
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna</artifactId>
-            <version>4.1.0</version>
+            <version>5.16.0</version>
         </dependency>
 
         <!-- hamcrest could be moved to the test-scope. But as the examples do not declare hamcrest-deps in their pom, 
