@@ -3,7 +3,7 @@
     <parent>
         <groupId>net.nmoncho</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
-        <version>4.3.1.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <groupId>net.nmoncho</groupId>
     <artifactId>cassandra-unit</artifactId>

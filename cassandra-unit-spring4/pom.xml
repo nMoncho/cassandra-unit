@@ -3,12 +3,12 @@
 	<parent>
 		<groupId>net.nmoncho</groupId>
 		<artifactId>cassandra-unit-parent</artifactId>
-        <version>4.3.1.1-SNAPSHOT</version>
+        <version>1.0.0</version>
 	</parent>
     <groupId>net.nmoncho</groupId>
-	<artifactId>cassandra-unit-spring</artifactId>
+	<artifactId>cassandra-unit-spring4</artifactId>
 	<packaging>jar</packaging>
-	<name>cassandra-unit-spring</name>
+	<name>cassandra-unit-spring4</name>
 	<description>Spring Test framework to develop with Cassandra</description>
 
 	<dependencies>
