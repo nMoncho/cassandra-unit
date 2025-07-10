@@ -46,7 +46,7 @@
         <cu.cassandra.all.version>3.11.5</cu.cassandra.all.version>
         <cu.cassandra.driver.version>4.17.0</cu.cassandra.driver.version>
         <cu.spring.version>4.3.30.RELEASE</cu.spring.version>
-        <cu.hamcrest.version>1.3</cu.hamcrest.version>
+        <cu.hamcrest.version>3.0</cu.hamcrest.version>
     </properties>
 
     <build>
