@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # Ignore 'cassandra-all' which should be updated by the long running branch
+      - dependency-name: "cassandra-all"
+
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "v3.11.x"
+    ignore:
+      # Ignore 'cassandra-all' that aren't v3.11.x updates
+      - dependency-name: "cassandra-all"
+        versions: ["3.0.x", "4.x", "5.x"]
