@@ -8,7 +8,7 @@
     <artifactId>cassandra-unit-shaded</artifactId>
     <description>Shaded version of cassandra-unit</description>
     <properties>
-        <shade.prefix>org.cassandraunit.shaded</shade.prefix>
+        <shade.prefix>net.nmoncho.shaded</shade.prefix>
     </properties>
 
     <build>
@@ -31,7 +31,7 @@
                             <artifactSet>
                                 <includes>
                                     <!-- included only to suppress dependency, not relocated -->
-                                    <include>org.cassandraunit:cassandra-unit</include>
+                                    <include>net.nmoncho:cassandra-unit</include>
 
                                     <!-- included due to relocated sub-dependencies, but itself not relocated because Class.forName -->
                                     <include>org.apache.cassandra:cassandra-all</include>

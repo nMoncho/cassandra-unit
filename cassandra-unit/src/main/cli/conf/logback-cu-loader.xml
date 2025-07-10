@@ -12,7 +12,7 @@
         <appender-ref ref="stdout"/>
     </root>
 
-    <logger name="org.cassandraunit">
+    <logger name="net.nmoncho">
         <level value="error" />
     </logger>
     <logger name="org.apache.cassandra">
