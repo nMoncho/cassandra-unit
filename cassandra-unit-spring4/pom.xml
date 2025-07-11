@@ -1,17 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>net.nmoncho</groupId>
-		<artifactId>cassandra-unit-parent</artifactId>
-        <version>1.0.0</version>
-	</parent>
-    <groupId>net.nmoncho</groupId>
-	<artifactId>cassandra-unit-spring4</artifactId>
-	<packaging>jar</packaging>
-	<name>cassandra-unit-spring4</name>
-	<description>Spring Test framework to develop with Cassandra</description>
+    <modelVersion>4.0.0</modelVersion>
 
-	<dependencies>
+    <parent>
+        <groupId>net.nmoncho</groupId>
+        <artifactId>cassandra-unit-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <groupId>net.nmoncho</groupId>
+    <artifactId>cassandra-unit-spring4</artifactId>
+    <name>cassandra-unit-spring4</name>
+    <description>Spring Test framework to develop with Cassandra</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
         <dependency>
             <groupId>net.nmoncho</groupId>
             <artifactId>cassandra-unit</artifactId>
@@ -84,6 +86,6 @@
             <scope>test</scope>
         </dependency>
 
-	</dependencies>
+    </dependencies>
 </project>
 

@@ -10,6 +10,7 @@
     <artifactId>cassandra-unit-shaded</artifactId>
     <name>cassandra-unit-shaded</name>
     <description>Shaded version of cassandra-unit</description>
+
     <properties>
         <shade.prefix>net.nmoncho.shaded</shade.prefix>
     </properties>
