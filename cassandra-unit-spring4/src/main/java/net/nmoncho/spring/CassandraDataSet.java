@@ -12,28 +12,28 @@ import java.lang.annotation.Target;
 /**
  * <p>This class should be used as follows :</p>
  * <blockquote><pre>
- * @RunWith(SpringJUnit4ClassRunner.class)
- * @ContextConfiguration
- * @TestExecutionListeners({ DependencyInjectionTestExecutionListener.class, CassandraUnitTestExecutionListener.class })
- * @EmbeddedCassandra
- * @CassandraDataSet
+ * {@code RunWith(SpringJUnit4ClassRunner.class)}
+ * {@code ContextConfiguration}
+ * {@code @TestExecutionListeners({ DependencyInjectionTestExecutionListener.class, CassandraUnitTestExecutionListener.class })}
+ * {@code @EmbeddedCassandra}
+ * {@code @CassandraDataSet}
  * public class MyClassTest {
- * @Test
- * public void xxx_xxx() throws Exception {
- * }
+ *    {@code @Test}
+ *    public void xxx_xxx() throws Exception {
+ *    }
  * }
  * </pre></blockquote>
  *
  * or if you use convention over configuration:
  * <blockquote><pre>
- * @RunWith(SpringJUnit4ClassRunner.class)
- * @ContextConfiguration
- * @TestExecutionListeners({ DependencyInjectionTestExecutionListener.class, CassandraUnitTestExecutionListener.class })
- * @CassandraUnit
+ * {@code @RunWith(SpringJUnit4ClassRunner.class)}
+ * {@code @ContextConfiguration}
+ * {@code @TestExecutionListeners({ DependencyInjectionTestExecutionListener.class, CassandraUnitTestExecutionListener.class })}
+ * {@code @CassandraUnit}
  * public class MyClassTest {
- * @Test
- * public void xxx_xxx() throws Exception {
- * }
+ *    {@code @Test}
+ *    public void xxx_xxx() throws Exception {
+ *    }
  * }
  * </pre></blockquote>
  * `class`-dataset.xml

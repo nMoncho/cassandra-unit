@@ -1,11 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>net.nmoncho</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
         <version>1.0.0</version>
     </parent>
+
     <artifactId>cassandra-unit-shaded</artifactId>
+    <name>cassandra-unit-shaded</name>
     <description>Shaded version of cassandra-unit</description>
     <properties>
         <shade.prefix>net.nmoncho.shaded</shade.prefix>
