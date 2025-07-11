@@ -12,6 +12,11 @@ CassandraUnit is for Cassandra what DBUnit is for Relational Databases.
 
 CassandraUnit helps you writing isolated JUnit tests in a Test Driven Development style.
 
+This is a fork from [org.cassandraunit](https://github.com/jsevellec/cassandra-unit). Most, if not all, work
+has been done there. We just update dependencies, and release on different Cassandra versions. Whereas the
+original development released versions following the Cassandra Java Driver, this project releases versions
+following the actual Cassandra DB.
+
 Main features :
 ---------------
 - Start an embedded Cassandra.
@@ -25,10 +30,6 @@ https://github.com/nMoncho/cassandra-unit/wiki
 
 and you can watch cassandra-unit-examples project.
 https://github.com/nMoncho/cassandra-unit-examples
-
-Mailing List :
---------------
-cassandra-unit-users@googlegroups.com (http://groups.google.com/group/cassandra-unit-users)
 
 License :
 ---------
