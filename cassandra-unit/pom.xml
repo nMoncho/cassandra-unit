@@ -4,7 +4,7 @@
     <parent>
         <groupId>net.nmoncho</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
-        <version>1.0.0</version>
+        <version>4.0.18.0</version>
     </parent>
 
     <groupId>net.nmoncho</groupId>
@@ -106,12 +106,6 @@
             <groupId>org.apache.thrift</groupId>
             <artifactId>libthrift</artifactId>
             <version>0.12.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.cassandra</groupId>
-            <artifactId>cassandra-thrift</artifactId>
-            <version>${cu.cassandra.all.version}</version>
         </dependency>
 
         <dependency>
