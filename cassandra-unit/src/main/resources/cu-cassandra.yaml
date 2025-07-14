@@ -23,7 +23,7 @@ cluster_name: 'Test Cluster'
 # See https://cassandra.apache.org/doc/latest/getting_started/production.html#tokens for
 # best practice information about num_tokens.
 #
-num_tokens: 16
+num_tokens: 1
 
 # Triggers automatic allocation of num_tokens tokens for this node. The allocation
 # algorithm attempts to choose tokens in a way that optimizes replicated load over
@@ -46,10 +46,10 @@ allocate_tokens_for_local_replication_factor: 3
 # vnodes (num_tokens > 1, above) -- in which case you should provide a
 # comma-separated list -- it's primarily used when adding nodes to legacy clusters
 # that do not have vnodes enabled.
-# initial_token:
+initial_token: 0
 
 # May either be "true" or "false" to enable globally
-hinted_handoff_enabled: true
+hinted_handoff_enabled: false
 
 # When hinted_handoff_enabled is true, a black list of data centers that will not
 # perform hinted handoff
@@ -436,7 +436,7 @@ saved_caches_directory: target/embeddedCassandra/saved_caches
 # and the CommitLog is simply synced every commitlog_sync_period_in_ms
 # milliseconds.
 commitlog_sync: periodic
-commitlog_sync_period_in_ms: 10000
+commitlog_sync_period_in_ms: 1000
 
 # When in periodic commitlog mode, the number of milliseconds to block writes
 # while waiting for a slow disk flush to complete.
@@ -923,7 +923,7 @@ concurrent_materialized_view_builders: 1
 # Setting this to 0 disables throttling. Note that this accounts for all types
 # of compaction, including validation compaction (building Merkle trees
 # for repairs).
-compaction_throughput_mb_per_sec: 64
+compaction_throughput_mb_per_sec: 1
 
 # When compacting, the replacement sstable(s) can be opened before they
 # are completely written, and used in place of the prior sstables for
@@ -939,7 +939,7 @@ sstable_preemptive_open_interval_in_mb: 50
 # When unset, the default is enabled. While this feature tries to keep the
 # disks balanced, it cannot guarantee it. This feature will be automatically
 # disabled if internode encryption is enabled.
-# stream_entire_sstables: true
+stream_entire_sstables: true
 
 # Throttles all outbound streaming file transfers on this node to the
 # given total throughput in Mbps. This is necessary because Cassandra does
@@ -1251,7 +1251,7 @@ client_encryption_options:
 #
 # none
 #   nothing is compressed.
-internode_compression: dc
+internode_compression: none
 
 # Enable or disable tcp_nodelay for inter-dc communication.
 # Disabling it will result in larger (but fewer) network packets being sent,
