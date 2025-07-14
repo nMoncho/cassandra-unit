@@ -42,7 +42,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <cu.junit.version>4.12</cu.junit.version>
-        <cu.logback.version>1.2.3</cu.logback.version>
+        <cu.logback.version>1.5.18</cu.logback.version>
         <cu.cassandra.all.version>4.0.18</cu.cassandra.all.version>
         <cu.cassandra.driver.version>4.17.0</cu.cassandra.driver.version>
         <cu.spring.version>4.3.30.RELEASE</cu.spring.version>
