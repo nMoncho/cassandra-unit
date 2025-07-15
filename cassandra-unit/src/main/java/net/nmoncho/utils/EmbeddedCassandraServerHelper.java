@@ -137,6 +137,8 @@ public class EmbeddedCassandraServerHelper {
         System.setProperty("cassandra-foreground", "true");
         System.setProperty("cassandra.native.epoll.enabled", "false"); // JNA doesnt cope with relocated netty
         System.setProperty("cassandra.unsafesystem", "true"); // disable fsync for a massive speedup on old platters
+        System.setProperty("cassandra.skip_wait_for_gossip_to_settle", "0");
+        System.setProperty("cassandra.load_ring_state", "false");
 
         // If there is no log4j config set already, set the default config
         if (System.getProperty("log4j.configuration") == null) {
