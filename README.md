@@ -23,6 +23,18 @@ Main features :
 - Create structure (keyspace and Column Families) and load data from an XML, JSON or YAML DataSet.
 - Execute a CQL script.
 
+Supported Cassandra Versions:
+-----------------------------
+Depending on the Cassandra version your project is using, we support different versions, published as different
+artifacts. We try to follow the Docker images' versions as close as possible.
+
+- [v3.11.x](https://github.com/nMoncho/cassandra-unit/tree/v3.11.x)
+- [v4.0.x](https://github.com/nMoncho/cassandra-unit/tree/v4.0.x)
+- [v4.1.x](https://github.com/nMoncho/cassandra-unit/tree/v4.1.x)
+- [v5.0.x](https://github.com/nMoncho/cassandra-unit/tree/v5.0.x)
+
+If you need a specific version, please file an issue.
+
 Where to start :
 ----------------
 You can start by reading the wiki : 
