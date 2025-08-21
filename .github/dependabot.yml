@@ -17,3 +17,23 @@ updates:
       # Ignore 'cassandra-all' that aren't v3.11.x updates
       - dependency-name: "cassandra-all"
         versions: ["3.0.x", "4.x", "5.x"]
+
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "v4.0.x"
+    ignore:
+      # Ignore 'cassandra-all' that aren't v4.0.x updates
+      - dependency-name: "cassandra-all"
+        versions: ["3.x", "4.1.x", "5.x"]
+
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "v4.1.x"
+    ignore:
+      # Ignore 'cassandra-all' that aren't v4.1.x updates
+      - dependency-name: "cassandra-all"
+        versions: ["3.x", "4.0.x", "5.x"]
