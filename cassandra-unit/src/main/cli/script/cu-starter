@@ -27,4 +27,4 @@ fi
 # Execute cassandraUnit
 $JAVA -ea -cp $CLASSPATH -Xmx256M \
 		-Dlogging.config=logback-cu-loader.xml \
-        net.nmoncho.cli.CassandraUnitCommandLineStarter "$@"
+        net.nmoncho.cassandraunit.cli.CassandraUnitCommandLineStarter "$@"
