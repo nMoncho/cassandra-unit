@@ -45,7 +45,7 @@
         <cu.logback.version>1.5.18</cu.logback.version>
         <cu.cassandra.all.version>3.11.19</cu.cassandra.all.version>
         <cu.cassandra.driver.version>4.17.0</cu.cassandra.driver.version>
-        <cu.spring.version>4.3.30.RELEASE</cu.spring.version>
+        <cu.spring.version>6.2.12</cu.spring.version>
         <cu.hamcrest.version>3.0</cu.hamcrest.version>
     </properties>
 
