@@ -3,7 +3,7 @@
 
     <groupId>net.nmoncho</groupId>
     <artifactId>cassandra-unit-parent</artifactId>
-    <version>4.1.9.1</version>
+    <version>4.1.10.0</version>
     <name>cassandra-unit-parent</name>
     <description>Test framework to develop with Cassandra</description>
     <packaging>pom</packaging>
@@ -29,7 +29,7 @@
         <connection>scm:git:https://github.com/nMoncho/cassandra-unit.git</connection>
         <developerConnection>scm:git:https://github.com/nMoncho/cassandra-unit.git</developerConnection>
         <url>https://github.com/nMoncho/cassandra-unit.git</url>
-        <tag>cassandra-unit-parent-4.1.9.1</tag>
+        <tag>cassandra-unit-parent-4.1.10.0</tag>
     </scm>
 
     <modules>
@@ -43,7 +43,7 @@
 
         <cu.junit.version>4.12</cu.junit.version>
         <cu.logback.version>1.2.3</cu.logback.version>
-        <cu.cassandra.all.version>4.1.9</cu.cassandra.all.version>
+        <cu.cassandra.all.version>4.1.10</cu.cassandra.all.version>
         <cu.cassandra.driver.version>4.17.0</cu.cassandra.driver.version>
         <cu.spring.version>4.3.30.RELEASE</cu.spring.version>
         <cu.hamcrest.version>3.0</cu.hamcrest.version>
