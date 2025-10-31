@@ -23,7 +23,7 @@ set CLASSPATH=%CLASSPATH%;%1%2
 goto :eof
 
 :runCli
-"%JAVA_HOME%\bin\java" -Dlog4j.configuration=log4j-cu-loader.xml -cp "%CLASSPATH%" net.nmoncho.cli.CassandraUnitCommandLineLoaderStarter %*
+"%JAVA_HOME%\bin\java" -Dlog4j.configuration=log4j-cu-loader.xml -cp "%CLASSPATH%" net.nmoncho.cassandraunit.cli.CassandraUnitCommandLineLoaderStarter %*
 
 goto finally
 

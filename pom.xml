@@ -3,7 +3,7 @@
 
     <groupId>net.nmoncho</groupId>
     <artifactId>cassandra-unit-parent</artifactId>
-    <version>3.11.19.1</version>
+    <version>3.11.19.2</version>
     <name>cassandra-unit-parent</name>
     <description>Test framework to develop with Cassandra</description>
     <packaging>pom</packaging>
@@ -29,7 +29,7 @@
         <connection>scm:git:git@github.com:nMoncho/cassandra-unit.git</connection>
         <developerConnection>scm:git:git@github.com:nMoncho/cassandra-unit.git</developerConnection>
         <url>https://github.com/nMoncho/cassandra-unit.git</url>
-        <tag>cassandra-unit-parent-3.11.19.1</tag>
+        <tag>cassandra-unit-parent-3.11.19.2</tag>
     </scm>
 
     <modules>

@@ -4,7 +4,7 @@
     <parent>
         <groupId>net.nmoncho</groupId>
         <artifactId>cassandra-unit-parent</artifactId>
-        <version>3.11.19.1</version>
+        <version>3.11.19.2</version>
     </parent>
 
     <groupId>net.nmoncho</groupId>
